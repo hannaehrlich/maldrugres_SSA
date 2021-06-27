@@ -17,7 +17,7 @@ library(ggplot2); library(RColorBrewer)
 # Reading in the Shapefiles
 ######################################################################
 
-setwd("~/desktop/MalDrugRes_SSA/gadm")
+setwd("~/desktop/MalDrugRes_SSA/gadm") ## set up new folder to store downloaded shapefiles 
 ssa = list()
 ssa$countries = c("AGO","BDI","BEN","BFA","BWA","CAF","CIV","CMR","COD","COG","ERI",
                   "ETH","GAB","GHA","GIN","GMB","GNB","GNQ","KEN","LBR","MDG","MLI",
