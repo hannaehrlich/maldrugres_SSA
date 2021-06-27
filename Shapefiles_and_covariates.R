@@ -44,7 +44,7 @@ ctry_shps = ctry_shps[ctry_shps$NAME_1!="Annobón",]
 # Adding covariate data
 ######################################################################
 
-setwd("~/desktop/MalDrugRes_SSA/covariates")
+setwd("~/desktop/MalDrugRes_SSA/covariates") ## set new wd to store downloaded covariates
 
 ## Final variables included in model after removing correlated variables are below
 ## E.g. excluded housing quality (source=MAP), population count/density (source=GPW Columbia)
