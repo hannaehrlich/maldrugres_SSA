@@ -76,8 +76,6 @@ model= S.CARleroux(  formula=formula_time1, family="binomial",
                      prior.var.beta = rep(100^2, times = 7)) ## times= no. of covariates + 1
 
 print(model) 
-mean(model$fitted.values/trials)
-sd(model$fitted.values/trials)
 
 #setwd("~/Predicted_Prevalence")
 #saveRDS(model,file = "crt_time1_mcmc.RData")
